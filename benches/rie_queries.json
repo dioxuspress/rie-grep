@@ -1,0 +1,82 @@
+[
+  {
+    "query": "SIGHUP zero downtime content reload",
+    "expected_paths": ["crates/app/src/", "crates/core/src/"],
+    "category": "exact-en"
+  },
+  {
+    "query": "Pingora SNI certificate routing upstream",
+    "expected_paths": ["crates/gateway/"],
+    "category": "exact-en"
+  },
+  {
+    "query": "Tantivy MmapDirectory search index schema",
+    "expected_paths": ["crates/modules/search/"],
+    "category": "exact-en"
+  },
+  {
+    "query": "CONTENT_DIR cases static overlay ServeDir",
+    "expected_paths": ["crates/app/src/server/static_assets.rs", "crates/modules/cases/"],
+    "category": "exact-en"
+  },
+  {
+    "query": "JWT authentication token claims verification",
+    "expected_paths": ["crates/core/src/", "crates/app/src/"],
+    "category": "exact-en"
+  },
+  {
+    "query": "PageMeta OpenGraph og:image social card",
+    "expected_paths": ["crates/widgets/src/", "crates/modules/cases/"],
+    "category": "exact-en"
+  },
+  {
+    "query": "SeaORM database migration table creation",
+    "expected_paths": ["crates/migration/"],
+    "category": "exact-en"
+  },
+  {
+    "query": "pulldown markdown latex renderer",
+    "expected_paths": ["crates/widgets/src/", "crates/core/src/"],
+    "category": "exact-en"
+  },
+  {
+    "query": "热重载 缓存 刷新",
+    "expected_paths": ["crates/app/src/", "crates/modules/search/", "crates/modules/docs/"],
+    "category": "bilingual-zh"
+  },
+  {
+    "query": "多域名 网关 代理 证书",
+    "expected_paths": ["crates/gateway/"],
+    "category": "bilingual-zh"
+  },
+  {
+    "query": "案例 橱窗 封面 静态资源",
+    "expected_paths": ["crates/modules/cases/", "crates/app/src/server/static_assets.rs"],
+    "category": "bilingual-zh"
+  },
+  {
+    "query": "课程 支付 订单",
+    "expected_paths": ["crates/modules/payment/", "crates/modules/course/"],
+    "category": "bilingual-zh"
+  },
+  {
+    "query": "论坛 评论 回复 讨论",
+    "expected_paths": ["crates/modules/forum/", "crates/modules/comments/"],
+    "category": "bilingual-zh"
+  },
+  {
+    "query": "鉴权 权限 登录 令牌",
+    "expected_paths": ["crates/core/src/", "crates/app/src/"],
+    "category": "bilingual-zh"
+  },
+  {
+    "query": "搜索 索引 分词 查询",
+    "expected_paths": ["crates/modules/search/"],
+    "category": "bilingual-zh"
+  },
+  {
+    "query": "安全 限流 防护 清洗",
+    "expected_paths": ["crates/modules/moderation/", "crates/app/src/", "crates/core/src/"],
+    "category": "bilingual-zh"
+  }
+]
